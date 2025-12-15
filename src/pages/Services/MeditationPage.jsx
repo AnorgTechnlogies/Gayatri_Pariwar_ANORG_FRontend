@@ -12,6 +12,8 @@ const baseVideos = [
   },
 ];
 
+// Meditation Page Video Changed Functionalities
+
 const MeditationPage = () => {
   const [playingVideo, setPlayingVideo] = useState(null); // null or video id
   const videoRefs = useRef({}); // To store refs for each video

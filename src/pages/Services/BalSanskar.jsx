@@ -1,5 +1,6 @@
 import React, { useState, useRef } from 'react';
 
+// Bal Sanskar page Video Changed Functionalities
 const BalSanskarWithForm = () => {
   const [playingVideo, setPlayingVideo] = useState(null); // null | "video1" | "video2"
   const video1Ref = useRef(null);

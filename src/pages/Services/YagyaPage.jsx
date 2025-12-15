@@ -1,8 +1,9 @@
 import React, { useState, useRef } from "react";
 import jsPDF from "jspdf";
 
+// Yagya Page Video Changed Functionalities
 const YagyaPage = () => {
-  const [playingVideo, setPlayingVideo] = useState(null); // "gayatri" | "deep" | null
+  const [playingVideo, setPlayingVideo] = useState(null); 
 
   const gayatriRef = useRef(null);
   const deepRef = useRef(null);

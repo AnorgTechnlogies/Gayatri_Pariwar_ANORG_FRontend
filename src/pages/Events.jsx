@@ -1,4 +1,4 @@
-// src/pages/Events.jsx
+// Events changed Full Page
 import React from "react";
 import DiwaliFlyer from "../assets/Event_image.png";
 
