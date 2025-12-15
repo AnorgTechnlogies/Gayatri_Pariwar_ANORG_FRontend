@@ -29,7 +29,7 @@ const BalSanskarWithForm = () => {
       <header className="text-orange-700 py-6 text-center bg-white/80 shadow-md">
         <h1 className="text-3xl md:text-4xl font-bold mb-2">Bal Sanskar Program</h1>
         <p className="text-lg md:text-2xl font-semibold px-4">
-          All World Gayatri Pariwar San Antonio, Texas
+          All World Gayatri Pariwar San Antonio, Texas.
         </p>
       </header>
 
