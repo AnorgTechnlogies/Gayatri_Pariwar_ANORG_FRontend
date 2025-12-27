@@ -1,7 +1,7 @@
 // src/components/OurStory.jsx
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import Shantikunj from "../assets/Shantikunj.jpg";
+import shantikunj from "../assets/shantikunj.jpg";
 
 const OurStory = () => {
   const navigate = useNavigate();
@@ -48,7 +48,7 @@ const OurStory = () => {
           {/* Image */}
           <div className="flex justify-center">
             <img
-              src={Shantikunj}
+              src={shantikunj}
               alt="Shantikunj Haridwar"
               className="rounded-2xl shadow-2xl w-full max-w-lg border-8 border-white"
             />

@@ -115,21 +115,17 @@ const SanskarPage = () => {
           {/* LEFT SIDE */}
           <div className="space-y-10 sm:space-y-12">
             {/* Google Form */}
-            <div className="bg-white rounded-3xl shadow-2xl p-6 sm:p-8 border border-amber-300">
+            <div className="bg-white rounded-3xl shadow-2xl p-3 sm:p-8 border border-amber-300">
               <h3 className="text-2xl sm:text-3xl font-bold text-orange-900 mb-6 text-center">
                 Book a Sanskar Ceremony
               </h3>
-              <div className="w-full bg-white rounded-2xl overflow-hidden border-4 border-amber-200 shadow-lg">
+            
                 <iframe
                   src="https://docs.google.com/forms/d/e/1FAIpQLSdUb7H-Q3U7q773OUAibjyTnz9yIqq4jJuamldsS7IfeTQgJA/viewform?embedded=true"
                   className="w-full h-[1200px] sm:h-[1400px] md:h-[1500px] border-0"
                   title="Sanskar Booking Form"
                   allowFullScreen
                 />
-              </div>
-              <p className="mt-4 text-center text-gray-600 text-sm sm:text-base">
-                Fill out the form to schedule any Vedic Sanskar with Gayatri Pariwar, San Antonio.
-              </p>
             </div>
 
             {/* Quote */}

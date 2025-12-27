@@ -32,14 +32,13 @@ const Service = () => {
 
     {
       id: 3,
-      title: "Yoga & Naturopathy",
+      title: "Sanskar Programs (16 Vedic Sanskars)",
       description:
-        "Yoga & Naturopathy programs promoting physical health, mental wellness, holistic healing, and natural lifestyle practices for children.",
-      img: Yoga,
-      link: "/Yoga",
+        "Ceremonial rituals like Naamkaran, Vidyarambh, Vivah, Griha Pravesh, and more, conducted with traditional Vedic purity and devotion.",
+      img: SanskarProgram,
+      link: "/sanskarPage",
     },
-
-    {
+{
       id: 4,
       title: "Gayatri Mantra Meditation Sessions",
       description:
@@ -50,12 +49,13 @@ const Service = () => {
 
     {
       id: 5,
-      title: "Sanskar Programs (16 Vedic Sanskars)",
+      title: "Yoga & Naturopathy",
       description:
-        "Ceremonial rituals like Naamkaran, Vidyarambh, Vivah, Griha Pravesh, and more, conducted with traditional Vedic purity and devotion.",
-      img: SanskarProgram,
-      link: "/sanskarPage",
+        "Yoga & Naturopathy programs promoting physical health, mental wellness, holistic healing, and natural lifestyle practices for children.",
+      img: Yoga,
+      link: "/Yoga",
     },
+
 
     {
       id: 6,
@@ -129,7 +129,7 @@ const Service = () => {
                           transform hover:scale-105 transition-all duration-300 
                           shadow-md border border-orange-500"
                 >
-                  Request Service / Yagya
+                  Request Service
                 </button>
 
                 {/* Donate Button - Matching Smaller Size */}
