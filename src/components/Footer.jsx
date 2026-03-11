@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   const link = {
-    facebookLink: "https://www.facebook.com/share/1D33zH3dXL/"
+    facebookLink: "https://www.facebook.com/share/1CtnsesLb1/"
   }
 
   return (
@@ -78,7 +78,7 @@ const Footer = () => {
 
           {/* CENTER: Contact Info */}
           <div className="space-y-4">
-            <h3 className="text-base font-semibold text-orange-400 mb-3">Contact Us</h3>
+            <h3 className="text-base font-semibold text-orange-400 mb-3">Contact</h3>
 
             <div>
               <p className="font-medium text-gray-300 text-xs">Email</p>
@@ -93,27 +93,33 @@ const Footer = () => {
             <div>
               <p className="font-medium text-gray-300 text-xs">Phone</p>
               <p className="text-[#ff8c4d] text-sm mt-1 space-y-1">
-                <span className="block">210 380 3054</span>
-                <span className="block">210 542 3332</span>
-                <span className="block">210 542 3336</span>
+                <span className="block">+1 (210) 380-3054</span>
+                <span className="block">+1 (210) 542-3332</span>
+                <span className="block">+1 (210) 542-3336</span>
               </p>
             </div>
           </div>
 
           {/* RIGHT: Quick Links */}
           <div>
-            <h3 className="text-base font-semibold text-orange-400 mb-3">Quick Links</h3>
+            <h3 className="text-base font-semibold text-orange-400 mb-3">
+              Quick Links
+            </h3>
+
             <ul className="space-y-2">
               {[
                 { to: "/", label: "Home" },
                 { to: "/service", label: "Services" },
                 { to: "/about", label: "About Us" },
                 { to: "/media", label: "Media" },
-                { to: "/contact", label: "Contact Us" },
+                { to: "/contact", label: "Contact" },
               ].map((link) => (
                 <li key={link.to}>
                   <Link
                     to={link.to}
+                    onClick={() =>
+                      window.scrollTo({ top: 0, behavior: "smooth" })
+                    }
                     className="text-orange-100 hover:text-orange-300 hover:underline transition text-sm font-medium block py-1"
                   >
                     {link.label}
@@ -122,6 +128,7 @@ const Footer = () => {
               ))}
             </ul>
           </div>
+
         </div>
 
         {/* BOTTOM BAR - More Compact */}

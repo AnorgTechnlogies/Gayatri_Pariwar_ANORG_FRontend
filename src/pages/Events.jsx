@@ -6,7 +6,7 @@ const Events = () => {
   const flyer = {
     image: DiwaliFlyer,
     title: "Gayatri Pariwar of San Antonio Sunday, Dec 21st, 2025, 2 to 5pm",
-    facebookLink: "https://www.facebook.com/share/1D33zH3dXL/",
+    facebookLink: "https://www.facebook.com/share/1CtnsesLb1/",
     googleFormLink: "https://docs.google.com/forms/d/e/1FAIpQLSe04zaqh8EzLbyogMbVnyRgqrWoMXFIVrqD9m3adUL6Zxa8K6p1A/viewform",
   };
 
